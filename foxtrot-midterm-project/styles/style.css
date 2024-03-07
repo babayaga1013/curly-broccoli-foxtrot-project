@@ -1,0 +1,67 @@
+
+.image-container{
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+
+.image-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(34, 34, 34, 0.649);
+    border-radius: 5px;
+    padding: 8px;
+  }
+.navbar-name{
+    text-align: left;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+  }
+  .navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.hambgrMenu {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 15px;
+    color: White;
+}
+
+.pgMenu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: #333;
+    padding: 10px;
+    text-align: left;
+    font-family: "Pacifico", cursive;
+    color: white;
+}
+
+.pgMenu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    color: white;
+}
+
+.pgMenu a:hover {
+    background-color: #555;
+}
